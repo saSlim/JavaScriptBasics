@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Decimal to Hex</title>
+</head>
+<body>
+    <script>
+        var input = prompt("Enter a number");
+
+        var num = parseInt(input);
+
+        alert(decToHex(num));
+
+        function decToHex(n) {
+            return n.toString(16).toUpperCase();
+        }
+
+    </script>
+
+</body>
+</html>
